@@ -31,6 +31,8 @@ gem 'gravatar-ultimate'
 
 gem 'annotate'
 
+gem 'paperclip', '~> 4.3'
+
 # Use Unicorn as the app server
 # gem 'unicorn'
 
