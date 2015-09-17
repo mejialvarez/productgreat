@@ -1,5 +1,6 @@
-
 class VotesController < ApplicationController
+  before_action :private_access
+
   def create
     product = Product.find(params[:product_id])
     product.votes.create(user: current_user)
